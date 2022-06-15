@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://172.25.245.212:3306/yxy?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  redis:
+    host: 172.25.245.212
+    port: 6379
+mybatis-plus:
+  config-location: classpath:/mybatis/config/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml
